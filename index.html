@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coder-Serwin</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="button">
+        <span class="logo"><a href="#">Coder<span class="name">-Serwin</span></a></span>
+    <button id="openbutton" onclick="OpenSidebar()">
+        <svg width="60" height="60" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <rect x="20" y="30" width="60" height="10" rx="5" fill="#F6F8D5" />
+            <rect x="20" y="45" width="60" height="10" rx="5" fill="#F6F8D5" />
+            <rect x="20" y="60" width="60" height="10" rx="5" fill="#F6F8D5" />
+          </svg>          
+    </button>
+    </div>
+
+    <!-- #Navigation Bar -->
+    <nav id="navbar">
+        <div class="navdiv">
+            <button id="closebutton" onclick="CloseSidebar()">
+                <svg width="40" height="40" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="20" y1="20" x2="80" y2="80" stroke="#F6F8D5" stroke-width="10" stroke-linecap="round"/>
+                    <line x1="80" y1="20" x2="20" y2="80" stroke="#F6F8D5" stroke-width="10" stroke-linecap="round"/>
+                  </svg>                                      
+            </button>
+            <div class="logo"><a href="#">Coder<span class="name">-Serwin</span></a></div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- #Main -->
+    <main class="home" id="home">
+        <section class="home-section">
+            <div class="intro">
+                <h2>Hello, I'm<br><span class="name">Serwin</span></h2>
+                <p class="description">Hey, I am Serwin, a professional web developer</p>
+            </div>
+            <div class="hide">
+            <a class="hireme">Hire Me</a>
+            </div>
+        </section>
+        <section class="home-img">
+            <div class="card">
+                <div class="circle-bg"></div>
+                <img src="/assets/image.png" alt="Serwin" class="serwin-img">
+              </div>
+        </section>
+    </main>
+    <div class="scroll">
+        <a href="#about">
+        <div class="scroll-msg">
+            Scroll Below
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293z"/>
+              </svg>
+            </div></a>
+    </div>
+    
+    <section class="about" id="about">
+        <h2 class="title">About Me</h2>
+        <p class="descri-about">
+            I'm passionate about crafting clean and responsive user interfaces using modern web technologies. I enjoy turning ideas into interactive websites, focusing on HTML, CSS, and Python. Whether it’s collaborating on fun projects or continuously learning new tech stacks, I’m always exploring ways to improve and innovate in the digital world.
+        </p>
+        <div class="card-container">
+            <div class="card1">
+                <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
+                    <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0"/>
+                  </svg>
+                </div>
+                  <div class="card-content">
+                    <h3>Languages</h3>
+                    <p>Building a strong foundation with HTML and CSS, and exploring Python for logic building and backend development. Currently expanding into modern tools like Tailwind CSS and JavaScript.</p>
+                  </div>
+            </div>
+            <div class="card2">
+                <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
+                    <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0"/>
+                  </svg>
+                  </div>
+                  <div class="card-content">
+                    <h3>Projects</h3>
+                    <p>Working on small-scale web projects to apply and sharpen my skills. Building landing pages, interactive UI components, and experimenting with Python logic for automation and backend.
+                    </p>
+                  </div>
+            </div>
+            <div class="card1">
+                <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
+                    <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0"/>
+                  </svg>
+                </div>
+                  <div class="card-content">
+                    <h3>Service</h3>
+                    <p>Providing frontend development services — from clean and responsive designs to custom components. Open to collaboration and eager to help turn ideas into beautiful websites.
+                    </p>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <h2 class="contact-title">Contact</h2>
+            <div class="form-section">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="804466da-6c5b-4ebe-8c8c-e542542891db">
+                <div class="input-form">
+                <input type="text" id="name" name="name" required>
+                <label for="name">Your Name</label>
+                </div>
+
+                <div class="input-form">
+                <input type="text" id="email" name="email" required>
+                <label for="email">Your email</label>
+                </div>
+
+                <div class="input-form">
+                <textarea id="message" rows="8" required name="message"></textarea>
+                <label for="message">Your Message</label>
+                </div>
+
+                <button type="submit" class="submit">Send Message</button>
+            </form>
+            </div>
+    </section>
+</body>
+</html>
